@@ -1,0 +1,87 @@
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+
+body {
+  font-family: "Varela Round", sans-serif;
+}
+
+.heading {
+  text-align: center;
+  margin-top: 5%;
+  font-family: Candara;
+  font-size: 400%;
+}
+
+.btn-light {
+  margin: 1% 3% 1% 3%;
+  border: 2px solid black;
+  padding: 0.8%;
+  border: none;
+  background: #404040;
+  color: #ffffff !important;
+  font-weight: 100;
+  padding: 20px;
+  text-transform: uppercase;
+  border-radius: 6px;
+  display: inline-block;
+  transition: all 0.3s ease 0s;
+}
+
+.btn-light:hover {
+  color: #404040 !important;
+  font-weight: 700 !important;
+  letter-spacing: 3px;
+  background: none;
+  box-shadow: none;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  transition: all 0.3s ease 0s;
+}
+
+.buttons {
+  margin-top: 2%;
+  text-align: center;
+}
+
+.input-group {
+  margin-top: 3%;
+  padding-left: 20%;
+  padding-right: 20%;
+  size: 300%;
+}
+.form-control{
+    border-radius: 2%;
+    transition: all 1s;
+    z-index: 4;
+    box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.4);
+}
+
+.container {
+  margin-top: 5%;
+}
+
+.mobile-img {
+  height: 370px;
+}
+
+.card {
+  width: 100%;
+  transition: 0.3s;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+  border-radius: 5px;
+  text-align: center; 
+  transition: transform .2s;
+}
+
+.card:hover {
+  transform: scale(1.1); 
+}
+
+.col-4 {
+  margin-bottom: 6%;
+}
+
+.logo {
+  width: 60px;
+  height: 40px;
+  margin-bottom: 1%;
+}
